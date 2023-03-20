@@ -1,0 +1,16 @@
+spring.datasource.username=postgres
+spring.datasource.password=root
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.jpa.show-sql: true
+spring.jpa.generate-ddl=true
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.database-platform = org.hibernate.dialect.PostgreSQLDialect
+management.security.enabled=false
+#//Spring Boot DevTools property
+spring.devtools.restart.enabled=true
+#//Auto-restart works well with LiveReload.
+spring.devtools.livereload.enabled=true
+spring.devtools.restart.exclude=public/**, static/**, templates/**
+#spring.devtools.restart.additional-paths=/path-to-folder
+spring.devtools.restart.additional-exclude=styles/**
+spring.devtools.add-properties=true
